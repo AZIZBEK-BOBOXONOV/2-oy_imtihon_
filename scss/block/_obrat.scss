@@ -1,0 +1,194 @@
+.obrat {
+  margin-bottom: 200px;
+}
+.obrat__content-block {
+  @include display;
+  width: 100%;
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../img/bgimg.png");
+}
+.obrat__title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+.obrat__text {
+  color: #949494;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 334px;
+  margin-bottom: 29px;
+}
+.Obrat__input::placeholder {
+  color: #949494;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Obrat__input {
+  background: #fff;
+  padding: 16px 188px 13px 22px;
+  border-radius: 3px;
+}
+
+.obart__form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.Obrat__input-text {
+  padding: 17px 190px 127px 22px;
+  margin-bottom: 30px;
+  background: #fff;
+  border-radius: 3px;
+}
+.Obrat__input-text::placeholder {
+  color: #949494;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.obrat__btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  background: #ffbd54;
+  border-radius: 3px;
+  padding: 15px 49px;
+}
+.obrat__content {
+  margin-left: 148px;
+}
+.input1,
+.input2 {
+  margin-bottom: 14px;
+}
+.obrat__container {
+  max-width: 1464px;
+}
+@media only screen and (max-width: 1064px) {
+  .obrat__content {
+    margin-left: 95px;
+  }
+  .obrat {
+    margin-bottom: 190px;
+  }
+}
+@media only screen and (max-width: 1008px) {
+  .obrat__content {
+    margin-left: 45px;
+  }
+  .obrat {
+    margin-bottom: 180px;
+  }
+}
+@media only screen and (max-width: 958px) {
+  .obrat__content {
+    margin-left: 15px;
+  }
+  .obrat {
+    margin-bottom: 160px;
+  }
+}
+@media only screen and (max-width: 928px) {
+  .obrat__content-block {
+    flex-wrap: wrap;
+    justify-content: $align;
+    text-align: $align;
+    margin: 0 auto;
+  }
+  .obrat__btn,
+  .obrat__text {
+    margin: 0 auto;
+  }
+  .obrat__ifreme {
+    width: 700px;
+    height: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+  }
+  .obrat {
+    margin-bottom: 150px;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .obrat__ifreme {
+    width: 600px;
+    height: 500px;
+  }
+  .obrat {
+    margin-bottom: 130px;
+  }
+}
+@media only screen and (max-width: 651px) {
+  .obrat__ifreme {
+    width: 450px;
+    height: 350px;
+  }
+  .obrat {
+    margin-bottom: 110px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .obrat__ifreme {
+    width: 320px;
+    height: 280px;
+  }
+  .obrat__title {
+    font-size: 40px;
+    margin-bottom: 12px;
+  }
+  .obrat__text {
+    font-size: 13px;
+    line-height: 17px;
+    max-width: 290px;
+    margin-bottom: 20px;
+    color: #fff4f4;
+  }
+
+  .Obrat__input {
+    padding: 14px 144px 11px 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .Obrat__input-text {
+    padding: 13px 144px 90px 18px;
+    margin-bottom: 30px;
+  }
+  .obrat {
+    margin-bottom: 90px;
+  }
+}
+@media only screen and (max-width: 423px) {
+  .obrat__ifreme {
+    width: 260px;
+    height: 220px;
+  }
+  .obrat__title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .obrat__text {
+    font-size: 11px;
+    line-height: 13px;
+    max-width: 230px;
+    margin-bottom: 15px;
+  }
+
+  .Obrat__input {
+    padding: 14px 94px 11px 13px;
+  }
+  .Obrat__input-text {
+    padding: 13px 92px 90px 13px;
+    margin-bottom: 30px;
+  }
+  .obrat {
+    margin-bottom: 60px;
+  }
+}

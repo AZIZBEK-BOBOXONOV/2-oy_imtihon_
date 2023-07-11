@@ -1,0 +1,130 @@
+.service__conatiner {
+  text-align: $align;
+  margin: 0 auto;
+}
+.service__text {
+  color: #2b2b2b;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 850px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.service__sub-text {
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 56px;
+  margin-top: 35px;
+}
+.service__link {
+  width: 140px;
+  height: 1px;
+  background: #575555;
+}
+.service__text {
+  display: flex;
+}
+.service__content::before {
+  content: "";
+  width: 55px;
+  height: 55px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100%;
+  flex-shrink: 0;
+  background-image: url("../../img/servise1.png");
+}
+.service__content::after {
+  content: "";
+  width: 55px;
+  height: 55px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100%;
+  flex-shrink: 0;
+  background-image: url("../../img/servise2.png");
+  margin-left: auto;
+}
+.service__title{
+  display: none;
+}
+@media only screen and (max-width:981px) {
+  .service__text {
+    font-size: 16px;
+    max-width: 650px;
+
+  }
+  .service__content::before {
+    width: 44px;
+    height: 44px;
+  }
+  .service__content::after {
+    width: 44px;
+    height: 44px;
+  }
+  .service__link {
+    width: 130px;
+  }
+}
+@media only screen and (max-width:748px) {
+  .service__text {
+    font-size: 14px;
+    max-width: 550px;
+
+  }
+  .service__content::before {
+    width: 33px;
+    height: 33px;
+  }
+  .service__content::after {
+    width: 33px;
+    height: 33px;
+  }
+  .service__link {
+    width: 120px;
+  }
+}
+@media only screen and (max-width:650px) {
+  .service__text {
+    font-size: 11px;
+    max-width: 390px;
+
+  }
+  .service__content::before {
+    width: 28px;
+    height: 28px;
+  }
+  .service__content::after {
+    width: 28px;
+    height: 28px;
+  }
+  .service__link {
+    width: 110px;
+  }
+}
+@media only screen and (max-width:447px) {
+  .service__text {
+    font-size: 9px;
+    max-width: 300px;
+
+  }
+  .service__content::before {
+    width: 22px;
+    height: 22px;
+  }
+  .service__content::after {
+    width: 22px;
+    height: 22px;
+  }
+  .service__sub-text {
+    font-size: 14px;
+  }
+  .service__link {
+    width: 100px;
+  }
+}

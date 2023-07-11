@@ -1,0 +1,89 @@
+.ab {
+  transition: all 0.3s linear;
+}
+.ab:hover {
+  color: #ffbd54;
+}
+.ab:active {
+  opacity: 0.6;
+}
+.as {
+  transition: all 0.3s linear;
+}
+.as:hover {
+  color: #ffbd54;
+}
+.as:active {
+  color: rgba(51, 51, 51, 0.7);
+}
+
+.ad {
+  transition: all 0.3s linear;
+}
+.ad:hover {
+  opacity: 0.8;
+}
+.ad:active {
+  opacity: 0.6;
+}
+.ae {
+  transition: all 0.4s linear;
+  padding: 10px;
+  margin: -6px;
+}
+.ae:hover {
+  color: aqua;
+  padding: 10px;
+  border-radius: 3px;
+  border: 0.5px solid red;
+  background-color: #1b1b1b;
+}
+.ae:active {
+  border-radius: 3px;
+  background-color: aqua;
+  color: black;
+}
+.ac {
+  transition: all 0.3s linear;
+}
+.ac:hover {
+  border-radius: 3px;
+  background: #ffbd54;
+  color: #333;
+}
+.ac:active {
+  opacity: 0.6;
+}
+.aj {
+  transition: all 0.3s linear;
+}
+.aj:hover {
+  border-radius: 3px;
+  background: #333;
+  color: #ffbd54;
+}
+.aj:active {
+  opacity: 0.6;
+}
+.av {
+  transition: all 0.3s linear;
+}
+.av:hover {
+  opacity: 0.5;
+}
+.av:active {
+  opacity: 0.2;
+}
+.al {
+  transition: all 0.3s linear;
+}
+.al:hover {
+  border-radius: 5px;
+  border: 2px solid #ffbd54;
+  opacity: 0.6;
+}
+.al:active {
+  opacity: 0.4;
+  background: #4d4b4b;
+  color: red;
+}
